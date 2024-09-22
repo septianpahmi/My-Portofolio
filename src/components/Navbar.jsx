@@ -52,7 +52,7 @@ export default function Navbar() {
         {/* Contact Button (hidden on small screens) */}
         <button
           onClick={() => window.open("mailto:sptnfahmi@gmail.com")}
-          className="bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
+          className="bg-gradient-to-r from-green-400 to-blue-500 text-white inline-block transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
         >
           Contact Me
         </button>
