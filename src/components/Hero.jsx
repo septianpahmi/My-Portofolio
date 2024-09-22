@@ -16,7 +16,7 @@ const Hero = () => {
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400  to-blue-500">
           Septian Pahmi
         </span>
-        , Graphic Designer
+        , Graphic Designer & Web Developer
       </h1>
       <p className="mt-4 text-lg text-gray-300">
         I specialize in creating graphic designs and developing modern,
