@@ -197,7 +197,7 @@ const Projects = () => {
             </div>
           ))}
         </div>
-        <div className="grid mt-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-8">
+        <div className="grid mt-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-12">
           {jerseys.map((jersey) => (
             <div key={jersey.id}>
               <div className="bg-gray-800 rounded-lg hover:shadow-lg transform transition-transform duration-300 hover:scale-105">
