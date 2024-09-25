@@ -11,7 +11,16 @@ import D5 from "../assets/d5.jpg";
 import D6 from "../assets/d6.jpg";
 import S1 from "../assets/s1.png";
 import S2 from "../assets/s2.png";
+import jersey from "../assets/1 SET.jpg";
 
+const jerseys = [
+  {
+    id: 1,
+    name: Jersey,
+    image: jersey,
+    category: "Graphic Design",
+  }
+]
 const projectsw = [
   {
     id: 1,
@@ -182,6 +191,19 @@ const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.name}
+                  className="w-full h-48 object-cover rounded-lg"
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="grid mt-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-8">
+          {jerseys.map((jersey) => (
+            <div key={jersey.id}>
+              <div className="bg-gray-800 rounded-lg hover:shadow-lg transform transition-transform duration-300 hover:scale-105">
+                <img
+                  src={jersey.image}
+                  alt={jersey.name}
                   className="w-full h-48 object-cover rounded-lg"
                 />
               </div>
