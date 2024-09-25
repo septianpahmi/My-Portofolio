@@ -16,7 +16,7 @@ import jersey from "../assets/1 SET.jpg";
 const jerseys = [
   {
     id: 1,
-    name: Jersey,
+    name: "Jersey",
     image: jersey,
     category: "Graphic Design",
   }
