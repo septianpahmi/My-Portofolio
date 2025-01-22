@@ -1,6 +1,6 @@
 import HeroImage from "../assets/hero-image.jpg";
 import { FaFileDownload } from "react-icons/fa";
-import Resume from "../assets/RESUME-SEPTIAN PAHMI-NEW.pdf";
+import Resume from "../assets/CV_SEPTIAN PAHMI-ENG.pdf";
 import { FaFacebook, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Hero = () => {

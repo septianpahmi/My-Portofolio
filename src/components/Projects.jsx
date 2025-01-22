@@ -24,10 +24,10 @@ const jerseys = [
 const projectsw = [
   {
     id: 1,
-    name: "AHP Method Decision Making System",
+    name: "Swimfest 2025",
     image: W1,
-    company: null,
-    link: "https://github.com/septianpahmi",
+    company: Swimfest Indonesia,
+    link: "https://swimfest.id/",
     category: "Web Development",
   },
   {
