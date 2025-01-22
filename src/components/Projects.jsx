@@ -1,4 +1,4 @@
-import W1 from "../assets/w-github.png";
+import W1 from "../assets/w-swimfest.png";
 import W2 from "../assets/w-bumdes.png";
 import W3 from "../assets/w-sukarobot.png";
 import U1 from "../assets/u-sukarobot.png";
@@ -26,7 +26,7 @@ const projectsw = [
     id: 1,
     name: "Swimfest 2025",
     image: W1,
-    company: Swimfest Indonesia,
+    company: "Swimfest Indonesia",
     link: "https://swimfest.id/",
     category: "Web Development",
   },
