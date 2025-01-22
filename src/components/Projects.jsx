@@ -1,4 +1,4 @@
-import W1 from "../assets/w-swimfest.png";
+import W1 from "../assets/w-swimfest.jpg";
 import W2 from "../assets/w-bumdes.png";
 import W3 from "../assets/w-sukarobot.png";
 import U1 from "../assets/u-sukarobot.png";
